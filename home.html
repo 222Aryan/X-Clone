@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="resources/styles/home.css">
+	<link rel="icon" href="resources/images/logo2.jpg">
+</head>
+<body>
+    <div id="home_container">
+        <div id = "left_side_bar">
+            <a href="">
+                <img src="/resources/images/home.png">
+            </a>
+            <a href="">
+                <img src="/resources/images/search.png">
+            </a>
+            <a href="">
+                <img src="/resources/images/bell.png">
+            </a>
+            <a href="">
+                <img src="/resources/images/user.png">
+            </a>
+            <a href="">
+                <img src="/resources/images/add_tweet.png">
+            </a>
+            <button onclick="window.location.href = 'index.html'">
+                <img src="/resources/images/logout.png">
+            </button>
+        </div>
+        <div id = "main_content">
+            <div id ="add_tweet">
+                <img src="/resources/images/profile.png" alt="">
+                <div id="add_tweet_content">
+                    <input type="text" placeholder="What's Happening ?">
+                    <button id="add-tweet-btn">Post</button>
+                </div>
+            </div>
+            <div id='tweets'></div>
+        </div>
+        <div id = "right_side_bar">
+            <h1>Hello</h1>
+            <h2>You might like</h2>
+            <div id = "pages_to_like"></div>
+            <div id =""></div>
+        </div>
+    </div>
+    <script src="/resources/scripts/home.js"></script>
+</body>
+</html>

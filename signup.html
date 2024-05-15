@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang=" = "en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="resources/styles/signup.css">
+        <link rel="icon" href="/resources/images/logo2.jpg">
+    </head>
+    <body>
+        <div class="container">
+            <img src="resources/images/logo.png" alt="x logo">
+            <form class="signup-form-container" id = 'signup-form-container-id'>
+                <h2>Happening Now!</h2>
+
+                <label for="sign_up_username">Username: </label>
+                <input type="text" name ="sign_up_username" id = "sign_up_username" required>
+                <label for="sign_up_password">Password:</label>
+                <input type="password" name ="sign_up_password" id = "sign_up_password" required>
+                <label for="sign_up_confirm_password">Confirm Password:</label>
+                <input type="password" name ="sign_up_confirm_password" id = "sign_up_confirm_password" required>
+                
+                <label for="sign_up_user_image">User Image:</label>
+                <input type="file" id = "sign_up_user_image" >
+                
+                <div id="signup_error"></div>
+
+                <button type="submit" id="signup-btn">Sign Up</button>
+                
+                <a href="index.html">Already registerd? click here to signin</a>
+            </form>
+            </div>
+        <script src="resources/scripts/signup.js"></script>
+    </body>
+</html>
